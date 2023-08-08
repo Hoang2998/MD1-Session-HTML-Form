@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form tìm kiếm</title>
+</head>
+<body>
+<h1>Liên Hệ</h1>
+<form method="post" action="#">
+    <label for="fullname">Họ và tên:</label>
+    <input type="text" id="fullname" name="fullname"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+    <label for="phone">Số điện thoại:</label>
+    <input type="tel"id="phone" name="phone"><br>
+
+    <label for="subject">Chủ đề:</label>
+    <select name="subject" id="subject">
+        <option value="general">tổng quan</option>
+        <option value="sales">Bán hàng</option>
+        <option value="support">Hỗ trợ</option>
+        <option value="parnership">Đối tác</option>
+    </select><br>
+
+
+    <label for="messsge">Nội dung</label>
+    <textarea id="messsge" name="message" rows="5"></textarea>
+
+    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+    <lable for="newsletter">Nhận thông tin từ chúng tôi</lable>
+    <br>
+
+    <input type="submit"value="Gửi">
+</form>
+</body>
+</html>
